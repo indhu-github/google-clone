@@ -21,3 +21,14 @@
 .home_header a:hover {
   text-decoration: underline;
 }
+
+.home_headerRight {
+  display: flex;
+  justify-content: space-between;
+  min-width: 13vw;
+  align-items: center;
+}
+
+.home_headerRight > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
