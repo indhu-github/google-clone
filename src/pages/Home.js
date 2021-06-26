@@ -19,7 +19,12 @@ function Home() {
           <Avatar />
         </div>
       </div>
-      <div className="home_body"></div>
+      <div className="home_body">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRriJSAhEvgE8RJg3tOWguscF3ttV7QSDZbcsvQE--GbnUfHbsD3EAqBv5TFvB6NFg5XPY&usqp=CAU"
+          alt="google_image"
+        />
+      </div>
     </div>
   );
 }

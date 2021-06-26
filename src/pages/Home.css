@@ -32,3 +32,15 @@
 .home_headerRight > .MuiSvgIcon-root {
   margin-right: 20px;
 }
+
+.home_body {
+  display: flex;
+  flex: 1;
+  margin-top: 10%;
+  flex-direction: column; /*it makes the column flex as well as centres the element */
+}
+
+.home_body > img {
+  object-fit: contain;
+  height: 200px;
+}
