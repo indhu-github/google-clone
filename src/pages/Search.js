@@ -9,22 +9,24 @@ const Search = () => {
 
   const search = (e) => {
     e.preventDefault();
+    console.log("input handling");
   };
 
   return (
-    <div className="search">
-      <div class="search_input">
+    <form className="search">
+      <div className="search_input">
         <SearchIcon className="search_inputIcon" />
-        <input />
+        <input value={input} onChange={(e) => setInput(e.target.value)} />
         <MicIcon />
       </div>
-      <div class="search_buttons">
-        <Button onClick={search} variant="outlined">
+      <div className="search_buttons">
+        <Button type="submit" onClick={search} variant="outlined">
+          {/* type='submit' executes click function whenever we type sthg and click on enter */}
           Google search
         </Button>
         <Button variant="outlined">I'm feeling lucky</Button>
       </div>
-    </div>
+    </form>
   );
 };
 

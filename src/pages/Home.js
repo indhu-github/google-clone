@@ -9,11 +9,11 @@ function Home() {
   return (
     <div className="home">
       <div className="home_header">
-        <div class="home_headerLeft">
+        <div className="home_headerLeft">
           <Link to="/about">About</Link>
           <Link to="/store">Store</Link>
         </div>
-        <div class="home_headerRight">
+        <div className="home_headerRight">
           <Link to="/gmail">Gmail</Link>
           <Link to="/images">Images</Link>
           <AppsIcon />
@@ -25,7 +25,7 @@ function Home() {
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRriJSAhEvgE8RJg3tOWguscF3ttV7QSDZbcsvQE--GbnUfHbsD3EAqBv5TFvB6NFg5XPY&usqp=CAU"
           alt="google_image"
         />
-        <div class="home_inputContainer">
+        <div className="home_inputContainer">
           <Search />
         </div>
       </div>
