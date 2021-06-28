@@ -1,0 +1,5 @@
+//to get the api key
+https://developers.google.com/custom-search/v1/using_rest
+
+//to get the search engine id
+https://cse.google.com/cse/create/new
