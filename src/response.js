@@ -8,9 +8,9 @@ export default {
   queries: {
     request: [
       {
-        title: "Google Custom Search - undefined",
-        totalResults: "2150000000",
-        searchTerms: "undefined",
+        title: "Google Custom Search - tesla",
+        totalResults: "480000000",
+        searchTerms: "tesla",
         count: 10,
         startIndex: 1,
         inputEncoding: "utf8",
@@ -21,9 +21,9 @@ export default {
     ],
     nextPage: [
       {
-        title: "Google Custom Search - undefined",
-        totalResults: "2150000000",
-        searchTerms: "undefined",
+        title: "Google Custom Search - tesla",
+        totalResults: "480000000",
+        searchTerms: "tesla",
         count: 10,
         startIndex: 11,
         inputEncoding: "utf8",
@@ -37,111 +37,520 @@ export default {
     title: "Google",
   },
   searchInformation: {
-    searchTime: 0.17651,
-    formattedSearchTime: "0.18",
-    totalResults: "2150000000",
-    formattedTotalResults: "2,150,000,000",
+    searchTime: 1.183222,
+    formattedSearchTime: "1.18",
+    totalResults: "480000000",
+    formattedTotalResults: "480,000,000",
   },
   items: [
     {
       kind: "customsearch#result",
-      title: "undefined - JavaScript | MDN",
-      htmlTitle: "\u003cb\u003eundefined\u003c/b\u003e - JavaScript | MDN",
-      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
-      displayLink: "developer.mozilla.org",
+      title: "Tesla: Electric Cars, Solar & Clean Energy",
+      htmlTitle:
+        "\u003cb\u003eTesla\u003c/b\u003e: Electric Cars, Solar &amp; Clean Energy",
+      link: "https://www.tesla.com/",
+      displayLink: "www.tesla.com",
       snippet:
-        "May 5, 2021 ... The global undefined property represents the primitive value undefined. It is one \nof JavaScript's primitive types.",
+        "Tesla is accelerating the world's transition to sustainable energy with electric cars\n, solar and integrated renewable energy solutions for homes and businesses.",
       htmlSnippet:
-        "May 5, 2021 \u003cb\u003e...\u003c/b\u003e The global \u003cb\u003eundefined\u003c/b\u003e property represents the primitive value \u003cb\u003eundefined\u003c/b\u003e. It is one \u003cbr\u003e\nof JavaScript&#39;s primitive types.",
-      cacheId: "JPOmPse90yAJ",
-      formattedUrl:
-        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/.../undefined",
-      htmlFormattedUrl:
-        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/.../\u003cb\u003eundefined\u003c/b\u003e",
+        "\u003cb\u003eTesla\u003c/b\u003e is accelerating the world&#39;s transition to sustainable energy with electric cars\u003cbr\u003e\n, solar and integrated renewable energy solutions for homes and businesses.",
+      cacheId: "rHYp-0etoiEJ",
+      formattedUrl: "https://www.tesla.com/",
+      htmlFormattedUrl: "https://www.\u003cb\u003etesla\u003c/b\u003e.com/",
       pagemap: {
         cse_thumbnail: [
           {
-            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZQ_QVCnr0XFkEQc5GJE0-ul1Cs4kna62NadEg1_k3cFxt414xCO4y3H6w",
-            width: "300",
-            height: "168",
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS-CUHXz6WD-9Zikk3qP3-R7q9bOeyYFJc5Uie4u7LoIjRObL3YQM8xrOQ",
+            width: "311",
+            height: "162",
           },
         ],
-        BreadcrumbList: [{}],
         metatags: [
           {
+            "msapplication-tilecolor": "#cc0000",
             "og:image":
-              "https://developer.mozilla.org/mdn-social-share.0ca9dbda.png",
-            "theme-color": "#ffffff",
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/195458a0-ff67-488c-b972-14d23d2c42fb/bvlatuR/std/1200x630/ms-homepage-social",
+            "og:type": "website",
             "twitter:card": "summary_large_image",
-            viewport: "width=device-width,initial-scale=1",
-            "og:title": "undefined - JavaScript | MDN",
-            "og:locale": "en-US",
-            position: "1",
-            "og:url":
-              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+            "twitter:title": "Electric Cars, Solar & Clean Energy | Tesla",
+            "theme-color": "#000000",
+            "og:site_name": "Tesla",
+            "og:image:url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/195458a0-ff67-488c-b972-14d23d2c42fb/bvlatuR/std/1200x630/ms-homepage-social",
+            handheldfriendly: "true",
+            "twitter:url": "https://www.tesla.com/",
+            "og:title": "Electric Cars, Solar & Clean Energy | Tesla",
+            "msapplication-tileimage":
+              "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
             "og:description":
-              "The global undefined property represents the primitive\n  value undefined. It is one of JavaScript's\n  primitive types.",
+              "Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and businesses.",
+            "twitter:creator": "@tesla",
+            "og:image:secure_url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/195458a0-ff67-488c-b972-14d23d2c42fb/bvlatuR/std/1200x630/ms-homepage-social",
+            "twitter:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/195458a0-ff67-488c-b972-14d23d2c42fb/bvlatuR/std/1200x630/ms-homepage-social",
+            "twitter:site": "@tesla",
+            "apple-mobile-web-app-status-bar-style": "black",
+            viewport: "width=device-width, initial-scale=1.0",
+            "twitter:description":
+              "Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and businesses.",
+            "apple-mobile-web-app-capable": "yes",
+            mobileoptimized: "width",
+            "og:url": "https://www.tesla.com/",
           },
         ],
         cse_image: [
           {
-            src: "https://developer.mozilla.org/mdn-social-share.0ca9dbda.png",
+            src: "https://tesla-cdn.thron.com/delivery/public/image/tesla/195458a0-ff67-488c-b972-14d23d2c42fb/bvlatuR/std/1200x630/ms-homepage-social",
           },
         ],
       },
     },
     {
       kind: "customsearch#result",
-      title: "Undefined | Definition of Undefined by Merriam-Webster",
+      title: "Tesla the Band | Official Website | American Made Rock 'n' Roll",
       htmlTitle:
-        "\u003cb\u003eUndefined\u003c/b\u003e | Definition of \u003cb\u003eUndefined\u003c/b\u003e by Merriam-Webster",
-      link: "https://www.merriam-webster.com/dictionary/undefined",
-      displayLink: "www.merriam-webster.com",
+        "\u003cb\u003eTesla\u003c/b\u003e the Band | Official Website | American Made Rock &#39;n&#39; Roll",
+      link: "https://teslatheband.com/",
+      displayLink: "teslatheband.com",
       snippet:
-        "Undefined definition is - not defined: such as. How to use undefined in a \nsentence.",
+        "The Official Website of the rock band Tesla, providing recent news, tour dates, \nmusic, history, and other ways for fans to interact.",
       htmlSnippet:
-        "\u003cb\u003eUndefined\u003c/b\u003e definition is - not defined: such as. How to use \u003cb\u003eundefined\u003c/b\u003e in a \u003cbr\u003e\nsentence.",
-      cacheId: "mhyep_dRe0oJ",
-      formattedUrl: "https://www.merriam-webster.com/dictionary/undefined",
-      htmlFormattedUrl:
-        "https://www.merriam-webster.com/dictionary/\u003cb\u003eundefined\u003c/b\u003e",
+        "The Official Website of the rock band \u003cb\u003eTesla\u003c/b\u003e, providing recent news, tour dates, \u003cbr\u003e\nmusic, history, and other ways for fans to interact.",
+      cacheId: "Pw3S9NsLmboJ",
+      formattedUrl: "https://teslatheband.com/",
+      htmlFormattedUrl: "https://\u003cb\u003etesla\u003c/b\u003etheband.com/",
       pagemap: {
         cse_thumbnail: [
           {
-            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSKksTSKYwpW8It403nrjw5t1_a8pLO2PI6ImEG7uvFrNfacgiziPZgG-_O",
-            width: "225",
-            height: "225",
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQj0Cz3qQotoHoZOO9Jro6e2jrHOWKwrH87bJcUVCT9zc_DyxxFtqt7vzo",
+            width: "310",
+            height: "163",
           },
         ],
         metatags: [
           {
-            "msapplication-tilecolor": "#2b5797",
             "og:image":
-              "https://merriam-webster.com/assets/mw/static/social-media-share/mw-logo-245x245@1x.png",
-            "twitter:title": "Definition of UNDEFINED",
-            "twitter:card": "summary",
-            "theme-color": "#ffffff",
-            "twitter:url":
-              "https://www.merriam-webster.com/dictionary/undefined",
-            "og:title": "Definition of UNDEFINED",
-            "twitter:aria-text": "Share the Definition of undefined on Twitter",
-            "og:aria-text": "Post the Definition of undefined to Facebook",
+              "https://teslatheband.com/wp-content/uploads/2018/03/cropped-home-hero-1.jpg",
+            "og:image:width": "3840",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title":
+              "Tesla the Band | Official Website | American Made Rock 'n' Roll",
+            "og:site_name": "TESLA BAND | Official Website",
+            "og:title":
+              "Tesla the Band | Official Website | American Made Rock 'n' Roll",
+            "og:image:height": "2016",
+            "twitter:image:height": "2016",
+            "msapplication-tileimage":
+              "/wp-content/uploads/2018/04/cropped-tesla-logo-1-270x270.png",
             "og:description":
-              "not defined: such as; not clearly or precisely shown, described, or limited; not provided with a definition… See the full definition",
+              "The Official Website of the rock band Tesla, providing recent news, tour dates, music, history, and other ways for fans to interact.",
             "twitter:image":
-              "https://merriam-webster.com/assets/mw/static/social-media-share/mw-logo-245x245@1x.png",
-            referrer: "unsafe-url",
-            "fb:app_id": "178450008855735",
-            "twitter:site": "@MerriamWebster",
-            viewport: "width=device-width, initial-scale=1.0",
+              "https://teslatheband.com/wp-content/uploads/2018/03/cropped-home-hero-1.jpg",
+            "twitter:image:width": "3840",
+            viewport: "width=device-width, initial-scale=1, shrink-to-fit=no",
             "twitter:description":
-              "not defined: such as; not clearly or precisely shown, described, or limited; not provided with a definition… See the full definition",
-            "og:url": "https://www.merriam-webster.com/dictionary/undefined",
+              "The Official Website of the rock band Tesla, providing recent news, tour dates, music, history, and other ways for fans to interact.",
+            "og:locale": "en_US",
+            "og:url": "https://teslatheband.com/",
           },
         ],
         cse_image: [
           {
-            src: "https://merriam-webster.com/assets/mw/static/social-media-share/mw-logo-245x245@1x.png",
+            src: "https://teslatheband.com/wp-content/uploads/2018/03/cropped-home-hero-1.jpg",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Model S | Tesla",
+      htmlTitle: "Model S | \u003cb\u003eTesla\u003c/b\u003e",
+      link: "https://www.tesla.com/models",
+      displayLink: "www.tesla.com",
+      snippet:
+        "Model S is built for speed and range, with beyond ludicrous acceleration, \nunparalleled performance and a refined design.",
+      htmlSnippet:
+        "Model S is built for speed and range, with beyond ludicrous acceleration, \u003cbr\u003e\nunparalleled performance and a refined design.",
+      cacheId: "Ei43u66-EP0J",
+      formattedUrl: "https://www.tesla.com/models",
+      htmlFormattedUrl:
+        "https://www.\u003cb\u003etesla\u003c/b\u003e.com/models",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTAXhDfXFYZXJz4pF8qq4zPPWZGhPDGZlzTsKd93BNIxAWfVnrmzibYTI2S",
+            width: "311",
+            height: "162",
+          },
+        ],
+        metatags: [
+          {
+            "msapplication-tilecolor": "#cc0000",
+            "og:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Model S | Tesla",
+            "theme-color": "#000000",
+            "og:site_name": "Tesla",
+            "og:image:url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social",
+            handheldfriendly: "true",
+            "twitter:url": "https://www.tesla.com/models",
+            "og:title": "Model S",
+            "msapplication-tileimage":
+              "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
+            "og:description":
+              "Model S is built for speed and range, with beyond ludicrous acceleration, unparalleled performance and a refined design.",
+            "twitter:creator": "@tesla",
+            "og:image:secure_url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social",
+            "twitter:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social",
+            "twitter:site": "@tesla",
+            "apple-mobile-web-app-status-bar-style": "black",
+            viewport: "width=device-width, initial-scale=1.0",
+            "twitter:description":
+              "Model S is built for speed and range, with beyond ludicrous acceleration, unparalleled performance and a refined design.",
+            "apple-mobile-web-app-capable": "yes",
+            mobileoptimized: "width",
+            "og:url": "https://www.tesla.com/models",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Tesla Investor Relations",
+      htmlTitle: "\u003cb\u003eTesla\u003c/b\u003e Investor Relations",
+      link: "https://ir.tesla.com/",
+      displayLink: "ir.tesla.com",
+      snippet:
+        "Tesla's mission is to accelerate the world's transition to sustainable energy. \nToday, Tesla builds not only all-electric vehicles but also infinitely scalable clean\n ...",
+      htmlSnippet:
+        "\u003cb\u003eTesla&#39;s\u003c/b\u003e mission is to accelerate the world&#39;s transition to sustainable energy. \u003cbr\u003e\nToday, \u003cb\u003eTesla\u003c/b\u003e builds not only all-electric vehicles but also infinitely scalable clean\u003cbr\u003e\n&nbsp;...",
+      cacheId: "DiUql1nUr6gJ",
+      formattedUrl: "https://ir.tesla.com/",
+      htmlFormattedUrl: "https://ir.\u003cb\u003etesla\u003c/b\u003e.com/",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHsX6OvBdeNbFQyiCZAh0HYbbb8K9o6e4DNgBEbJpMTErPMpC2ndkruA",
+            width: "433",
+            height: "116",
+          },
+        ],
+        metatags: [
+          {
+            "og:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/tesla-cars-social/bvlatuR/std/0x0/tesla-cars-social",
+            "theme-color": "#000000",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Tesla Investor Relations",
+            "og:site_name": "Tesla Investor Relations",
+            "og:image:url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/tesla-cars-social/bvlatuR/std/0x0/tesla-cars-social",
+            handheldfriendly: "true",
+            "og:title": "Tesla Investor Relations",
+            "og:description":
+              "Tesla's mission is to accelerate the world's transition to sustainable energy. Today, Tesla builds not only all-electric vehicles but also infinitely scalable clean energy generation and storage products.",
+            "og:image:secure_url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/tesla-cars-social/bvlatuR/std/0x0/tesla-cars-social",
+            "twitter:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/tesla-cars-social/bvlatuR/std/0x0/tesla-cars-social",
+            viewport: "width=device-width, initial-scale=1.0",
+            "twitter:description":
+              "Tesla's mission is to accelerate the world's transition to sustainable energy. Today, Tesla builds not only all-electric vehicles but also infinitely scalable clean energy generation and storage products.",
+            mobileoptimized: "width",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://tesla-cdn.thron.com/delivery/public/image/tesla/home_hero/S1dbei4/std/0x0/home_hero",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Model 3 | Tesla",
+      htmlTitle: "Model 3 | \u003cb\u003eTesla\u003c/b\u003e",
+      link: "https://www.tesla.com/model3",
+      displayLink: "www.tesla.com",
+      snippet:
+        "Model 3 is designed for electric-powered performance, with dual motor AWD, \nquick acceleration, long range and fast charging.",
+      htmlSnippet:
+        "Model 3 is designed for electric-powered performance, with dual motor AWD, \u003cbr\u003e\nquick acceleration, long range and fast charging.",
+      cacheId: "N4-C0Xr0P-gJ",
+      formattedUrl: "https://www.tesla.com/model3",
+      htmlFormattedUrl:
+        "https://www.\u003cb\u003etesla\u003c/b\u003e.com/model3",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSUJfAMM2tg3jkc-O42gXv0qCKhk944QQTVtP42EFcQz0Zl4X4IrHLSRlAW",
+            width: "311",
+            height: "162",
+          },
+        ],
+        metatags: [
+          {
+            "msapplication-tilecolor": "#cc0000",
+            "og:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+            "og:image:alt": "Model 3",
+            "twitter:card": "summary",
+            "twitter:title": "Model 3 | Tesla",
+            "theme-color": "#000000",
+            "og:site_name": "Tesla",
+            "og:image:url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+            handheldfriendly: "true",
+            "twitter:url": "https://www.tesla.com/model3",
+            "og:title": "Model 3 | Tesla",
+            "msapplication-tileimage":
+              "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
+            "og:description":
+              "Model 3 is designed for electric-powered performance, with dual motor AWD, quick acceleration, long range and fast charging.",
+            "twitter:creator": "@Tesla",
+            "og:image:secure_url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+            "twitter:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+            "twitter:image:alt": "Model 3",
+            "apple-mobile-web-app-status-bar-style": "black",
+            viewport: "width=device-width, initial-scale=1.0",
+            "twitter:description":
+              "Model 3 is designed for electric-powered performance, with dual motor AWD, quick acceleration, long range and fast charging.",
+            "apple-mobile-web-app-capable": "yes",
+            mobileoptimized: "width",
+            "og:url": "https://www.tesla.com/model3",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Nikola Tesla - Wikipedia",
+      htmlTitle: "Nikola \u003cb\u003eTesla\u003c/b\u003e - Wikipedia",
+      link: "https://en.wikipedia.org/wiki/Nikola_Tesla",
+      displayLink: "en.wikipedia.org",
+      snippet:
+        "Nikola Tesla was born an ethnic Serb in the village of Smiljan, within the Military \nFrontier, in the Austrian Empire (present day Croatia), on 10 July [O.S. 28 June] ...",
+      htmlSnippet:
+        "Nikola \u003cb\u003eTesla\u003c/b\u003e was born an ethnic Serb in the village of Smiljan, within the Military \u003cbr\u003e\nFrontier, in the Austrian Empire (present day Croatia), on 10 July [O.S. 28 June]&nbsp;...",
+      cacheId: "ffC4b7aiemYJ",
+      formattedUrl: "https://en.wikipedia.org/wiki/Nikola_Tesla",
+      htmlFormattedUrl:
+        "https://en.wikipedia.org/wiki/Nikola_\u003cb\u003eTesla\u003c/b\u003e",
+      pagemap: {
+        hcard: [
+          {
+            note: "Projects Alternating current high-voltage, high-frequency power experiments",
+            bday: "1856-07-10",
+            fn: "Nikola Tesla",
+            nickname: "Никола Тесла",
+            label: "Nikola Tesla Museum Belgrade, Serbia",
+            category: "Austrian (1856–1891) American (1891–1943)",
+          },
+        ],
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQWCFn1zDwTQIBRF9VDd9IfsyYKVtv2UGWDYFby88mPDxjm7AZ3P5uZLbk",
+            width: "196",
+            height: "257",
+          },
+        ],
+        metatags: [
+          {
+            referrer: "origin",
+            "og:image":
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/N.Tesla.JPG/1200px-N.Tesla.JPG",
+            "og:type": "website",
+            "og:title": "Nikola Tesla - Wikipedia",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/N.Tesla.JPG/1200px-N.Tesla.JPG",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Solar Roof | Tesla",
+      htmlTitle: "Solar Roof | \u003cb\u003eTesla\u003c/b\u003e",
+      link: "https://www.tesla.com/solarroof",
+      displayLink: "www.tesla.com",
+      snippet:
+        "Solar Roof transforms your existing roof and brings it to life with beautiful solar \ntiles that can power your home for decades with the energy you produce.",
+      htmlSnippet:
+        "Solar Roof transforms your existing roof and brings it to life with beautiful solar \u003cbr\u003e\ntiles that can power your home for decades with the energy you produce.",
+      cacheId: "hczIMtX0mFwJ",
+      formattedUrl: "https://www.tesla.com/solarroof",
+      htmlFormattedUrl:
+        "https://www.\u003cb\u003etesla\u003c/b\u003e.com/solarroof",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_lB8IjjMdqFojG8fpJSSsRAR0wAVy3BCmntVfAN-ZFtbiu3QoX2jd7wo",
+            width: "284",
+            height: "177",
+          },
+        ],
+        metatags: [
+          {
+            "msapplication-tilecolor": "#cc0000",
+            "og:image":
+              "https://www.tesla.com/sites/default/files/solarroof/v3/design/solar-roof_design_D.jpg",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Solar Roof | Tesla",
+            "theme-color": "#000000",
+            "og:image:url":
+              "https://www.tesla.com/sites/default/files/solarroof/v3/design/solar-roof_design_D.jpg",
+            handheldfriendly: "true",
+            "twitter:url": "https://www.tesla.com/solarroof",
+            "og:title": "Solar Roof | Tesla",
+            "msapplication-tileimage":
+              "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
+            "og:description":
+              "Solar Roof transforms your existing roof and brings it to life with beautiful solar tiles that can power your home for decades with the energy you produce.",
+            "twitter:creator": "@tesla",
+            "og:image:secure_url":
+              "https://www.tesla.com/sites/default/files/solarroof/v3/design/solar-roof_design_D.jpg",
+            "twitter:image":
+              "https://www.tesla.com/sites/default/files/solarroof/v3/design/solar-roof_design_D.jpg",
+            "twitter:image:alt": "Tesla Solar Roof",
+            "twitter:site": "@tesla",
+            "apple-mobile-web-app-status-bar-style": "black",
+            viewport: "width=device-width, initial-scale=1.0",
+            "twitter:description":
+              "Solar Roof transforms your existing roof and brings it to life with beautiful solar tiles that can power your home for decades with the energy you produce.",
+            "apple-mobile-web-app-capable": "yes",
+            mobileoptimized: "width",
+            "og:url": "https://www.tesla.com/solarroof",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://www.tesla.com/sites/default/files/solarroof/v3/design/solar-roof_design_D.jpg",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Tesla (@Tesla) | Twitter",
+      htmlTitle:
+        "\u003cb\u003eTesla\u003c/b\u003e (@\u003cb\u003eTesla\u003c/b\u003e) | Twitter",
+      link: "https://twitter.com/tesla?lang=en",
+      displayLink: "twitter.com",
+      snippet:
+        "The latest Tweets from Tesla (@Tesla). electric cars, giant batteries and solar.",
+      htmlSnippet:
+        "The latest Tweets from \u003cb\u003eTesla\u003c/b\u003e (@\u003cb\u003eTesla\u003c/b\u003e). electric cars, giant batteries and solar.",
+      cacheId: "EA6z_IGqBJUJ",
+      formattedUrl: "https://twitter.com/tesla?lang=en",
+      htmlFormattedUrl:
+        "https://twitter.com/\u003cb\u003etesla\u003c/b\u003e?lang=en",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSYo1-BDaWz7OWvo4rC3DYSk0BMIDlrgsunbJWC8C-YWW9FHubtYtyC5PXw",
+            width: "225",
+            height: "225",
+          },
+        ],
+        xfn: [{}],
+        metatags: [
+          {
+            "msapplication-tilecolor": "#00aced",
+            "al:android:url": "twitter://user?screen_name=Tesla",
+            "al:ios:app_name": "Twitter",
+            "swift-page-section": "profile",
+            "al:android:package": "com.twitter.android",
+            "swift-page-name": "profile",
+            "msapplication-tileimage":
+              "//abs.twimg.com/favicons/win8-tile-144.png",
+            "al:ios:url": "twitter://user?screen_name=Tesla",
+            "al:ios:app_store_id": "333903271",
+            "al:android:app_name": "Twitter",
+            "facebook-domain-verification": "moho2ug7zs57jijiywrewd8wb5a08h",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_400x400.png",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "TSLA: Tesla Inc - Stock Price, Quote and News - CNBC",
+      htmlTitle:
+        "TSLA: \u003cb\u003eTesla\u003c/b\u003e Inc - Stock Price, Quote and News - CNBC",
+      link: "https://www.cnbc.com/quotes/TSLA",
+      displayLink: "www.cnbc.com",
+      snippet:
+        "Get Tesla Inc (TSLA:NASDAQ) real-time stock quotes, news, price and financial \ninformation from CNBC.",
+      htmlSnippet:
+        "Get \u003cb\u003eTesla\u003c/b\u003e Inc (TSLA:NASDAQ) real-time stock quotes, news, price and financial \u003cbr\u003e\ninformation from CNBC.",
+      cacheId: "m3nMYXJI7psJ",
+      formattedUrl: "https://www.cnbc.com/quotes/TSLA",
+      htmlFormattedUrl: "https://www.cnbc.com/quotes/TSLA",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeZNwGjuwj2R8mk-B_fNrrBEAZqzp1fStevzprMkycFjuNE2mZrtOIenaR",
+            width: "310",
+            height: "163",
+          },
+        ],
+        metatags: [
+          {
+            "og:image":
+              "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif",
+            "apple-itunes-app": "app-id=398018310",
+            "og:type": "website",
+            "twitter:card": "summary",
+            "twitter:title":
+              "Check out Tesla's stock price (TSLA) in real time",
+            "og:site_name": "CNBC",
+            "al:ios:app_name": "CNBC Business News and Finance",
+            "twitter:url": "https://www.cnbc.com/quotes/TSLA",
+            "og:title": "Check out Tesla's stock price (TSLA) in real time",
+            title: "TSLA: Tesla Inc - Stock Price, Quote and News - CNBC",
+            "og:description":
+              "Get Tesla Inc (TSLA:NASDAQ) real-time stock quotes, news, price and financial information from CNBC.",
+            "parsely-metadata":
+              '{"nodeid": "101","originalImage": "https://sc.cnbcfm.com/applications/cnbc.com/resources/img/editorial/2015/03/30/102546467-Most-Popular--Image-Placeholder-Large.jpg"}',
+            "article:publisher": "https://www.facebook.com/CNBC",
+            "article:author": "https://www.facebook.com/CNBC",
+            "al:ios:app_store_id": "398018310",
+            referrer: "unsafe-url",
+            "parsely-type": "post",
+            "twitter:site": "@CNBC",
+            viewport: "initial-scale=1.0, width=device-width",
+            "og:url": "https://www.cnbc.com/quotes/TSLA",
+            "format-detection": "telephone=no",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif",
           },
         ],
       },
@@ -149,420 +558,59 @@ export default {
     {
       kind: "customsearch#result",
       title:
-        "undefined - MDN Web Docs Glossary: Definitions of Web-related terms",
+        "Tesla, Inc. (TSLA) Stock Price, News, Quote & History - Yahoo Finance",
       htmlTitle:
-        "\u003cb\u003eundefined\u003c/b\u003e - MDN Web Docs Glossary: Definitions of Web-related terms",
-      link: "https://developer.mozilla.org/en-US/docs/Glossary/undefined",
-      displayLink: "developer.mozilla.org",
+        "\u003cb\u003eTesla\u003c/b\u003e, Inc. (TSLA) Stock Price, News, Quote &amp; History - Yahoo Finance",
+      link: "https://finance.yahoo.com/quote/TSLA/",
+      displayLink: "finance.yahoo.com",
       snippet:
-        "Dec 14, 2020 ... undefined is a primitive value automatically assigned to variables that have just \nbeen declared, or to formal arguments for which there are no ...",
+        "Find the latest Tesla, Inc. (TSLA) stock quote, history, news and other vital \ninformation to help you with your stock trading and investing.",
       htmlSnippet:
-        "Dec 14, 2020 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eundefined\u003c/b\u003e is a primitive value automatically assigned to variables that have just \u003cbr\u003e\nbeen declared, or to formal arguments for which there are no&nbsp;...",
-      cacheId: "uHyFiYJJLC8J",
-      formattedUrl:
-        "https://developer.mozilla.org/en-US/docs/Glossary/undefined",
-      htmlFormattedUrl:
-        "https://developer.mozilla.org/en-US/docs/Glossary/\u003cb\u003eundefined\u003c/b\u003e",
+        "Find the latest \u003cb\u003eTesla\u003c/b\u003e, Inc. (TSLA) stock quote, history, news and other vital \u003cbr\u003e\ninformation to help you with your stock trading and investing.",
+      cacheId: "Y0MVeAHUpw8J",
+      formattedUrl: "https://finance.yahoo.com/quote/TSLA/",
+      htmlFormattedUrl: "https://finance.yahoo.com/quote/TSLA/",
       pagemap: {
         cse_thumbnail: [
           {
-            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZQ_QVCnr0XFkEQc5GJE0-ul1Cs4kna62NadEg1_k3cFxt414xCO4y3H6w",
-            width: "300",
-            height: "168",
+            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSoCgoe2XIWK1wvQQnCXpvwGieiET3EZ89hNdiU356o8MB7kfJHy8vE4EBf",
+            width: "225",
+            height: "225",
           },
         ],
-        BreadcrumbList: [{}],
         metatags: [
           {
             "og:image":
-              "https://developer.mozilla.org/mdn-social-share.0ca9dbda.png",
-            "theme-color": "#ffffff",
-            "twitter:card": "summary_large_image",
-            viewport: "width=device-width,initial-scale=1",
+              "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+            "apple-itunes-app":
+              "app-id=328412701, app-clip-bundle-id=com.yahoo.finance.clip-qsp, affiliate-data=ct=us.fin.mbl.smart-banner&pt=9029, app-argument=https://finance.yahoo.com/quote/TSLA",
+            "theme-color": "#400090",
+            "twitter:title":
+              "Tesla, Inc. (TSLA) Stock Price, News, Quote & History - Yahoo Finance",
+            "al:ios:app_name": "Yahoo Finance",
+            "msvalidate.01": "A9862C0E6E1BE95BCE0BF3D0298FD58B",
             "og:title":
-              "undefined - MDN Web Docs Glossary: Definitions of Web-related terms | MDN",
-            "og:locale": "en-US",
-            position: "1",
-            "og:url":
-              "https://developer.mozilla.org/en-US/docs/Glossary/undefined",
+              "Tesla, Inc. (TSLA) Stock Price, News, Quote & History - Yahoo Finance",
+            "al:android:package": "com.yahoo.mobile.client.android.finance",
+            "fb:pages": "458584288257241",
             "og:description":
-              "undefined is a primitive value automatically assigned to variables that have just been declared, or to formal arguments for which there are no actual arguments.",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://developer.mozilla.org/mdn-social-share.0ca9dbda.png",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Undefined - Wikipedia",
-      htmlTitle: "\u003cb\u003eUndefined\u003c/b\u003e - Wikipedia",
-      link: "https://en.wikipedia.org/wiki/Undefined",
-      displayLink: "en.wikipedia.org",
-      snippet:
-        "Undefined behavior, computer code whose behavior is not specified under \ncertain conditions · Undefined value, a condition where an expression does not \nhave a ...",
-      htmlSnippet:
-        "\u003cb\u003eUndefined\u003c/b\u003e behavior, computer code whose behavior is not specified under \u003cbr\u003e\ncertain conditions &middot; \u003cb\u003eUndefined\u003c/b\u003e value, a condition where an expression does not \u003cbr\u003e\nhave a&nbsp;...",
-      cacheId: "4pcUmBADZLUJ",
-      formattedUrl: "https://en.wikipedia.org/wiki/Undefined",
-      htmlFormattedUrl:
-        "https://en.wikipedia.org/wiki/\u003cb\u003eUndefined\u003c/b\u003e",
-      pagemap: {
-        metatags: [
-          {
-            referrer: "origin",
-            "og:type": "website",
-            "og:title": "Undefined - Wikipedia",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Undefined - Twitch",
-      htmlTitle: "\u003cb\u003eUndefined\u003c/b\u003e - Twitch",
-      link: "https://www.twitch.tv/undefined",
-      displayLink: "www.twitch.tv",
-      snippet:
-        "Undefined streams live on Twitch! Check out their videos, sign up to chat, and \njoin their community.",
-      htmlSnippet:
-        "\u003cb\u003eUndefined\u003c/b\u003e streams live on Twitch! Check out their videos, sign up to chat, and \u003cbr\u003e\njoin their community.",
-      cacheId: "ZDQe3fr0eS8J",
-      formattedUrl: "https://www.twitch.tv/undefined",
-      htmlFormattedUrl:
-        "https://www.twitch.tv/\u003cb\u003eundefined\u003c/b\u003e",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJyC8lyu0euX1LnjCAPUskVlDZ225xVmyUder3feZlgivQbWfjsgquTGSJ",
-            width: "225",
-            height: "225",
-          },
-        ],
-        metatags: [
-          {
-            "og:image":
-              "https://static-cdn.jtvnw.net/jtv_user_pictures/undefined-profile_image-10dccf22c64c7c47-300x300.jpeg",
-            "twitter:app:url:iphone": "twitch.tv/Undefined",
-            "twitter:app:id:googleplay": "tv.twitch.android.app",
-            "twitter:card": "summary",
-            "og:site_name": "Twitch",
-            "twitter:app:url:ipad": "twitch.tv/Undefined",
-            "al:android:package": "tv.twitch.android.app",
-            "twitter:app:name:googleplay": "Twitch",
-            title: "Undefined - Twitch",
-            "twitter:app:id:iphone": "id460177396",
-            "al:ios:url": "twitch.tv/Undefined",
-            "og:description":
-              "Undefined streams live on Twitch! Check out their videos, sign up to chat, and join their community.",
-            "twitter:image":
-              "https://static-cdn.jtvnw.net/jtv_user_pictures/undefined-profile_image-10dccf22c64c7c47-300x300.jpeg",
-            "al:ios:app_store_id": "id460177396",
-            "twitter:site": "@twitch",
-            "og:video:type": "text/html",
-            "og:video:height": "378",
-            "og:type": "video.other",
-            "twitter:title": "Undefined - Twitch",
-            "al:ios:app_name": "Twitch",
-            "og:title": "Undefined - Twitch",
-            "twitter:app:id:ipad": "id460177396",
-            "og:video:secure_url":
-              "https://player.twitch.tv/?channel=Undefined&player=facebook&autoplay=true&parent=meta.tag",
-            "og:video:width": "620",
-            "fb:app_id": "161273083968709",
-            "twitter:app:url:googleplay": "twitch.tv/Undefined",
-            "twitter:app:name:ipad": "Twitch",
-            "og:video":
-              "https://player.twitch.tv/?channel=Undefined&player=facebook&autoplay=true&parent=meta.tag",
+              "Find the latest Tesla, Inc. (TSLA) stock quote, history, news and other vital information to help you with your stock trading and investing.",
+            "twitter:dnt": "on",
+            "al:ios:app_store_id": "328412701",
+            "al:android:url":
+              "intent://quote/TSLA/#Intent;scheme=yfinance;action=android.intent.action.VIEW;package=com.yahoo.mobile.client.android.finance;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.yahoo.mobile.client.android.finance;end",
+            "fb:app_id": "458584288257241",
+            "oath:guce:consent-host": "guce.yahoo.com",
+            "twitter:site": "@YahooFinance",
+            viewport: "width=device-width, initial-scale=1",
             "twitter:description":
-              "Undefined streams live on Twitch! Check out their videos, sign up to chat, and join their community.",
-            "og:url": "https://www.twitch.tv/undefined",
-            "twitter:app:name:iphone": "Twitch",
-            "al:android:app_name": "Twitch",
+              "Find the latest Tesla, Inc. (TSLA) stock quote, history, news and other vital information to help you with your stock trading and investing.",
+            "al:android:app_name": "Yahoo Finance",
           },
         ],
         cse_image: [
           {
-            src: "https://static-cdn.jtvnw.net/jtv_user_pictures/undefined-profile_image-10dccf22c64c7c47-300x300.jpeg",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Undefined Beauty",
-      htmlTitle: "\u003cb\u003eUndefined\u003c/b\u003e Beauty",
-      link: "https://un-definedbeauty.com/",
-      displayLink: "un-definedbeauty.com",
-      snippet: "Clean. Conscious. Inclusive. Plant Magic.",
-      htmlSnippet: "Clean. Conscious. Inclusive. Plant Magic.",
-      cacheId: "MDtQXIn1LZsJ",
-      formattedUrl: "https://un-definedbeauty.com/",
-      htmlFormattedUrl: "https://un-definedbeauty.com/",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkR-EhdF7PiknqKrPMo3EVfpzT05-BFpAIn7G08eqD85x2Swlz-3HVjfXQ",
-            width: "194",
-            height: "260",
-          },
-        ],
-        metatags: [
-          {
-            "og:image":
-              "http://static1.squarespace.com/static/5b2d1d16f793920769335dee/t/6014580e929571162b892957/1611946017930/undefined-39.jpg?format=1500w",
-            "og:type": "website",
-            "og:image:width": "1500",
-            "twitter:title": "Undefined Beauty",
-            "twitter:card": "summary",
-            "og:site_name": "Undefined Beauty",
-            "twitter:url": "https://un-definedbeauty.com",
-            "og:title": "Undefined Beauty",
-            "og:image:height": "2008",
-            "og:description": "Clean. Conscious. Inclusive. Plant Magic.",
-            "twitter:image":
-              "http://static1.squarespace.com/static/5b2d1d16f793920769335dee/t/6014580e929571162b892957/1611946017930/undefined-39.jpg?format=1500w",
-            viewport: "initial-scale=1",
-            "twitter:description": "Clean. Conscious. Inclusive. Plant Magic.",
-            "og:url": "https://un-definedbeauty.com",
-          },
-        ],
-        cse_image: [
-          {
-            src: "http://static1.squarespace.com/static/5b2d1d16f793920769335dee/t/6014580e929571162b892957/1611946017930/undefined-39.jpg?format=1500w",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Undefined | Definition of Undefined at Dictionary.com",
-      htmlTitle:
-        "\u003cb\u003eUndefined\u003c/b\u003e | Definition of \u003cb\u003eUndefined\u003c/b\u003e at Dictionary.com",
-      link: "https://www.dictionary.com/browse/undefined",
-      displayLink: "www.dictionary.com",
-      snippet:
-        "Undefined definition, without fixed limits; indefinite in form, extent, or application: \nundefined authority; undefined feelings of sadness. See more.",
-      htmlSnippet:
-        "\u003cb\u003eUndefined\u003c/b\u003e definition, without fixed limits; indefinite in form, extent, or application: \u003cbr\u003e\n\u003cb\u003eundefined\u003c/b\u003e authority; \u003cb\u003eundefined\u003c/b\u003e feelings of sadness. See more.",
-      cacheId: "UGUU7jl43rcJ",
-      formattedUrl: "https://www.dictionary.com/browse/undefined",
-      htmlFormattedUrl:
-        "https://www.dictionary.com/browse/\u003cb\u003eundefined\u003c/b\u003e",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSwcf3SjW2-7T0Y8Gq-s5mGt58UG4-m-JDLMIcHlGTPisKRDoIb3EwhmeC7",
-            width: "225",
-            height: "225",
-          },
-        ],
-        metatags: [
-          {
-            "og:image":
-              "https://www.dictionary.com/assets/dictionary-social-logo-93d290770ddf5b8c309b6e5ce9dcaac9.png",
-            "twitter:card": "summary",
-            "fb:app_id": "127444090629600",
-            "og:site_name": "www.dictionary.com",
-            "twitter:site": "@Dictionarycom",
-            "msvalidate.01": "DF5542D7723770377E9ABFF59AC1DC97",
-            viewport: "width=device-width, initial-scale=1.0",
-            "og:title": "Definition of undefined | Dictionary.com",
-            "fb:admins": "100000304287730;109125464873",
-            "og:description":
-              "Definition of undefined from Dictionary.com, the world’s leading online source for English definitions, pronunciations, word origins, idioms, Word of the Day, and more.",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://www.dictionary.com/assets/dictionary-social-logo-93d290770ddf5b8c309b6e5ce9dcaac9.png",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Fred Lagast (@undefined) • Instagram photos and videos",
-      htmlTitle:
-        "Fred Lagast (@\u003cb\u003eundefined\u003c/b\u003e) • Instagram photos and videos",
-      link: "https://www.instagram.com/undefined/?hl=en",
-      displayLink: "www.instagram.com",
-      snippet:
-        "246k Followers, 261 Following, 93 Posts - See Instagram photos and videos from \nFred Lagast (@undefined)",
-      htmlSnippet:
-        "246k Followers, 261 Following, 93 Posts - See Instagram photos and videos from \u003cbr\u003e\nFred Lagast (@\u003cb\u003eundefined\u003c/b\u003e)",
-      formattedUrl: "https://www.instagram.com/undefined/?hl=en",
-      htmlFormattedUrl:
-        "https://www.instagram.com/\u003cb\u003eundefined\u003c/b\u003e/?hl=en",
-      pagemap: {
-        xfn: [{}],
-        metatags: [
-          {
-            "og:image":
-              "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/10624422_1681113512113145_1928453536_a.jpg?_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=vKM7eibRnH8AX9O09Ug&edm=ABfd0MgBAAAA&ccb=7-4&oh=41396872f51bd99a37393ab1b1a7ceed&oe=60E0452C&_nc_sid=7bff83",
-            "theme-color": "#ffffff",
-            "og:type": "profile",
-            "al:ios:app_name": "Instagram",
-            "og:title": "Fred Lagast (@undefined) is on Instagram",
-            "al:android:package": "com.instagram.android",
-            "al:ios:url": "instagram://user?username=undefined",
-            "og:description":
-              "246k Followers, 261 Following, 93 Posts - See Instagram photos and videos from Fred Lagast (@undefined)",
-            "al:ios:app_store_id": "389801252",
-            "al:android:url": "https://www.instagram.com/_u/undefined/",
-            "apple-mobile-web-app-status-bar-style": "default",
-            viewport:
-              "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover",
-            "mobile-web-app-capable": "yes",
-            "og:url": "https://www.instagram.com/undefined/",
-            "al:android:app_name": "Instagram",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/10624422_1681113512113145_1928453536_a.jpg?_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=vKM7eibRnH8AX9O09Ug&edm=ABfd0MgBAAAA&ccb=7-4&oh=41396872f51bd99a37393ab1b1a7ceed&oe=60E0452C&_nc_sid=7bff83",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Save 51% on UNDEFINED on Steam",
-      htmlTitle: "Save 51% on \u003cb\u003eUNDEFINED\u003c/b\u003e on Steam",
-      link: "https://store.steampowered.com/app/661190/UNDEFINED/",
-      displayLink: "store.steampowered.com",
-      snippet:
-        'UNDEFINED. An exciting first-person game, which takes place in the near future. \nYou wake up in a strange place "Discovery One" you are hiding from the ...',
-      htmlSnippet:
-        "\u003cb\u003eUNDEFINED\u003c/b\u003e. An exciting first-person game, which takes place in the near future. \u003cbr\u003e\nYou wake up in a strange place &quot;Discovery One&quot; you are hiding from the&nbsp;...",
-      cacheId: "k5f22RP-4K0J",
-      formattedUrl: "https://store.steampowered.com/app/661190/UNDEFINED/",
-      htmlFormattedUrl:
-        "https://store.steampowered.com/app/661190/\u003cb\u003eUNDEFINED\u003c/b\u003e/",
-      pagemap: {
-        offer: [
-          {
-            pricecurrency: "USD",
-            price: "0.49",
-          },
-        ],
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOIB3_f5hUtBXyNpMW0-qwyiCJfMEkUVYPfoI_B98jtGTnq6IvzziZGZPi",
-            width: "297",
-            height: "170",
-          },
-        ],
-        product: [
-          {
-            image:
-              "https://cdn.akamai.steamstatic.com/steam/apps/661190/capsule_231x87.jpg?t=1598389616",
-            name: "UNDEFINED",
-          },
-        ],
-        aggregaterating: [
-          {
-            reviewcount: "1",
-            ratingvalue: "0",
-            worstrating: "1",
-            description: "1 user reviews",
-            bestrating: "10",
-          },
-        ],
-        metatags: [
-          {
-            "og:image":
-              "https://cdn.akamai.steamstatic.com/steam/apps/661190/capsule_616x353.jpg?t=1598389616",
-            "theme-color": "#171a21",
-            "twitter:card": "summary_large_image",
-            "twitter:title": "Save 51% on UNDEFINED on Steam",
-            "og:type": "website",
-            "og:title": "Save 51% on UNDEFINED on Steam",
-            "og:description":
-              "An exciting first-person game, which takes place in the near future. You wake up in a strange place &quot;Discovery One&quot; you are hiding from the outside world. You are increasingly starting a casual relationship.",
-            "twitter:image":
-              "https://cdn.akamai.steamstatic.com/steam/apps/661190/capsule_616x353.jpg?t=1598389616",
-            "fb:app_id": "105386699540688",
-            "twitter:site": "@steam",
-            viewport: "width=device-width,initial-scale=1",
-            "twitter:description":
-              "An exciting first-person game, which takes place in the near future. You wake up in a strange place &quot;Discovery One&quot; you are hiding from the outside world. You are increasingly starting a casual relationship.",
-            "og:site": "Steam",
-            "og:url": "https://store.steampowered.com/app/661190/UNDEFINED/",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://cdn.akamai.steamstatic.com/steam/apps/661190/capsule_616x353.jpg?t=1598389616",
-          },
-        ],
-        hproduct: [
-          {
-            fn: "UNDEFINED",
-            photo:
-              "https://cdn.akamai.steamstatic.com/steam/apps/661190/capsule_231x87.jpg?t=1598389616",
-            currency: "USD",
-            currency_iso4217: "840",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "The Undefined Podcast",
-      htmlTitle: "The \u003cb\u003eUndefined\u003c/b\u003e Podcast",
-      link: "https://undefined.fm/",
-      displayLink: "undefined.fm",
-      snippet:
-        "The only engineering podcast with a 2 drink minimum. Hosted by Jared Palmer \nand Ken Wheeler.",
-      htmlSnippet:
-        "The only engineering podcast with a 2 drink minimum. Hosted by Jared Palmer \u003cbr\u003e\nand Ken Wheeler.",
-      cacheId: "ORzWCdLc5eYJ",
-      formattedUrl: "https://undefined.fm/",
-      htmlFormattedUrl: "https://\u003cb\u003eundefined\u003c/b\u003e.fm/",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQdLsV0jXnOOsrFJ4k3Mspsu1WkJWtGhp5sZj4wHcc-SsAFEgwrd7ZaIw",
-            width: "225",
-            height: "225",
-          },
-        ],
-        metatags: [
-          {
-            "application-name": "undefined.fm",
-            "og:image":
-              "https://media.simplecast.com/podcast/image/8781/1549548387-artwork.jpg",
-            "apple-itunes-app": "app-id=1451541555",
-            copyright: "The Palmer Group",
-            "og:type": "website",
-            "twitter:title": "The Undefined Podcast",
-            "twitter:card": "summary",
-            "theme-color": "#fff",
-            "og:site_name": "The Undefined Podcast",
-            "og:title": "The Undefined Podcast",
-            "apple-mobile-web-app-title": "undefined.fm",
-            "og:description":
-              "The only engineering podcast with a 2 drink minimum. Hosted by Jared Palmer and Ken Wheeler.",
-            "twitter:image":
-              "https://media.simplecast.com/podcast/image/8781/1549548387-artwork.jpg",
-            "twitter:site": "@theundefinedio",
-            "apple-mobile-web-app-status-bar-style": "black-translucent",
-            viewport: "width=device-width, initial-scale=1, shrink-to-fit=no",
-            "twitter:description":
-              "The only engineering podcast with a 2 drink minimum. Hosted by Jared Palmer and Ken Wheeler.",
-            "apple-mobile-web-app-capable": "yes",
-            "og:locale": "en_US",
-            "mobile-web-app-capable": "yes",
-            "og:url": "https://undefined.fmundefined",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://media.simplecast.com/podcast/image/8781/1549548387-artwork.jpg",
+            src: "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
           },
         ],
       },
