@@ -6,9 +6,10 @@ import Response from "../response";
 
 const SearchPage = () => {
   const [{ term }, dispatch] = useStateValue();
+  console.log("hey", term);
   //LIVE API call
-  //const { data } = useGoogleSearch(term);
-  const data = Response;
+  const { data } = useGoogleSearch(term);
+  //const data = Response;
   console.log(data);
   return (
     <div className="searchPage">

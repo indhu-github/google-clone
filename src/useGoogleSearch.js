@@ -4,9 +4,9 @@ import API_KEY from "./keys";
 const CONTEXT_KEY = "1175ea6c4bb3c0fa0";
 
 //It is a custom hook
-const useGoogleSearch = ({ term }) => {
+const useGoogleSearch = (term) => {
   const [data, setData] = useState(null);
-
+  console.log(term);
   useEffect(() => {
     const fetchData = async () => {
       fetch(
