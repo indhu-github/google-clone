@@ -6,7 +6,7 @@ const SearchPage = () => {
   const [{ term }, dispatch] = useStateValue();
   return (
     <div className="searchPage">
-      <div class="searchPage_header">
+      <div className="searchPage_header">
         <h1>{term}</h1>
       </div>
 
