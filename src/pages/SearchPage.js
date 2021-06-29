@@ -4,6 +4,7 @@ import useGoogleSearch from "../useGoogleSearch";
 import "./SearchPage.css";
 import Response from "../response";
 import { Link } from "@material-ui/core";
+import Search from "./Search";
 
 const SearchPage = () => {
   const [{ term }, dispatch] = useStateValue();
@@ -23,6 +24,9 @@ const SearchPage = () => {
             alt="logo"
           />
         </Link>
+        <div className="searchPage_headerBody">
+          <Search hidebuttons />
+        </div>
       </div>
 
       <div className="searchPage_results"></div>
