@@ -32,8 +32,8 @@ const SearchPage = () => {
         </Link>
         <div className="searchPage_headerBody">
           <Search hideButtons />
-          <div class="searchPage_options">
-            <div class="searchPage_optionsLeft">
+          <div className="searchPage_options">
+            <div className="searchPage_optionsLeft">
               <div className="searchPage_option">
                 <SearchIcon />
                 <Link to="/all">All</Link>
@@ -59,11 +59,24 @@ const SearchPage = () => {
                 <Link to="/all">More</Link>
               </div>
             </div>
+
+            <div className="searchPage_optionsRight">
+              <div className="searchPage_option">
+                <Link to="/settings">Settings</Link>
+              </div>
+              <div className="searchPage_option">
+                <Link to="/tools">Tools</Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <div className="searchPage_results"></div>
+      {term && (
+        <div className="searchPage_results">
+          About {data?.searchInformation.formattedTotalResults} results (
+          {data?.searchInformation.formattedSearchTime} seconds) for {term}
+        </div>
+      )}
     </div>
   );
 };

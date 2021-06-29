@@ -26,3 +26,34 @@
   margin: unset;
   max-width: unset;
 }
+
+.searchPage_options {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.searchPage_optionsLeft,
+.searchPage_optionsRight {
+  display: flex;
+}
+
+.searchPage_options a {
+  text-decoration: none;
+  color: gray;
+}
+
+.searchPage_optionsRight {
+  margin-left: 80px;
+}
+
+.searchPage_option {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.searchPage_option a {
+  margin-left: 5px;
+}
