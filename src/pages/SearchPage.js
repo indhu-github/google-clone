@@ -73,8 +73,10 @@ const SearchPage = () => {
       </div>
       {term && (
         <div className="searchPage_results">
-          About {data?.searchInformation.formattedTotalResults} results (
-          {data?.searchInformation.formattedSearchTime} seconds) for {term}
+          <p className="searchPage_resultsCount">
+            About {data?.searchInformation.formattedTotalResults} results (
+            {data?.searchInformation.formattedSearchTime} seconds) for {term}
+          </p>
         </div>
       )}
     </div>
