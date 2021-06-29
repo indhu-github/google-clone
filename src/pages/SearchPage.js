@@ -16,10 +16,12 @@ const SearchPage = () => {
   const [{ term = "tesla" }, dispatch] = useStateValue();
 
   //LIVE API call
-  //const { data } = useGoogleSearch(term);
+  const { data } = useGoogleSearch(term);
 
-  const data = Response;
-  console.log(data);
+  //MOCK API call
+  //const data = Response;
+  //console.log(data);
+
   return (
     <div className="searchPage">
       <div className="searchPage_header">
@@ -79,7 +81,28 @@ const SearchPage = () => {
           </p>
 
           {data?.items.map((item) => (
-            <div className="searchPage_result">{item.displayLink}</div>
+            <div className="searchPage_result">
+              <a href={item.link}>
+                {item.pagemap?.cse_image?.length > 0 &&
+                  item.pagemap?.cse_image[0]?.src && (
+                    <img
+                      className="searchPage_resultImage"
+                      src={
+                        item.pagemap?.cse_image?.length > 0 &&
+                        item.pagemap?.cse_image[0]?.src
+                      }
+                      alt=""
+                    />
+                  )}
+                {item.displayLink}
+              </a>
+              <a className="searchPage_resultTitle" href={item.link}>
+                <h2>{item.title}</h2>
+              </a>
+              <p className="searchPage_resultSnippet" href={item.snippet}>
+                {item.snippet}
+              </p>
+            </div>
           ))}
         </div>
       )}

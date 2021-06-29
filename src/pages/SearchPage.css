@@ -1,8 +1,10 @@
 .searchPage_logo {
   object-fit: contain;
+  flex-direction: row;
   height: 50px;
   margin-right: 50px;
 }
+
 .searchPage_header {
   display: flex;
   position: sticky;
@@ -56,4 +58,45 @@
 
 .searchPage_option a {
   margin-left: 5px;
+}
+
+.searchPage_result {
+  margin: 40px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchPage_resultsCount {
+  color: #70757a;
+  font-size: 14px;
+}
+
+.searchPage_results {
+  max-width: 650px;
+  margin-top: 20px;
+  margin-left: 240px;
+  margin-bottom: 100px;
+}
+
+.searchPage_resultTitle {
+  text-decoration: none;
+}
+
+.searchPage_resultTitle:hover {
+  text-decoration: underline;
+}
+
+.searchPage_resultTitle > h2 {
+  font-weight: 500;
+}
+
+.searchPage_resultSnippet {
+  margin-top: 10px;
+}
+
+.searchPage_resultImage {
+  object-fit: contain;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
 }
