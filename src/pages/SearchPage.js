@@ -2,8 +2,7 @@ import React from "react";
 import { useStateValue } from "../StateProvider";
 import useGoogleSearch from "../useGoogleSearch";
 import "./SearchPage.css";
-import Response from "../response";
-import { Link } from "@material-ui/core";
+//import Response from "../response";
 import Search from "./Search";
 import SearchIcon from "@material-ui/icons/Search";
 import DescriptionIcon from "@material-ui/icons/Description";
@@ -11,6 +10,7 @@ import ImageIcon from "@material-ui/icons/Image";
 import LocalOfferIcon from "@material-ui/icons/LocalOffer";
 import RoomIcon from "@material-ui/icons/Room";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
+import { Link } from "react-router-dom";
 
 const SearchPage = () => {
   const [{ term = "tesla" }, dispatch] = useStateValue();
@@ -28,10 +28,11 @@ const SearchPage = () => {
         <Link to="/">
           <img
             className="searchPage_logo"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRriJSAhEvgE8RJg3tOWguscF3ttV7QSDZbcsvQE--GbnUfHbsD3EAqBv5TFvB6NFg5XPY&usqp=CAU"
+            src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
             alt="logo"
           />
         </Link>
+
         <div className="searchPage_headerBody">
           <Search hideButtons />
           <div className="searchPage_options">
@@ -73,7 +74,7 @@ const SearchPage = () => {
           </div>
         </div>
       </div>
-      {true && (
+      {term && (
         <div className="searchPage_results">
           <p className="searchPage_resultsCount">
             About {data?.searchInformation.formattedTotalResults} results (
