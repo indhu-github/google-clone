@@ -1,6 +1,6 @@
 import React from "react";
 import { useStateValue } from "../utils/StateProvider";
-import useGoogleSearch from "../useGoogleSearch";
+import useGoogleSearch from "../utils/useGoogleSearch";
 import "./SearchPage.css";
 //import Response from "../response";
 import Search from "../components/Search";
