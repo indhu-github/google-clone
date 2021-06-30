@@ -1,9 +1,9 @@
 import React from "react";
-import { useStateValue } from "../StateProvider";
+import { useStateValue } from "../utils/StateProvider";
 import useGoogleSearch from "../useGoogleSearch";
 import "./SearchPage.css";
 //import Response from "../response";
-import Search from "./Search";
+import Search from "../components/Search";
 import SearchIcon from "@material-ui/icons/Search";
 import DescriptionIcon from "@material-ui/icons/Description";
 import ImageIcon from "@material-ui/icons/Image";
@@ -13,7 +13,7 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 import { Link } from "react-router-dom";
 
 const SearchPage = () => {
-  const [{ term = "tesla" }, dispatch] = useStateValue();
+  const [{ term  }, dispatch] = useStateValue();
 
   //LIVE API call
   const { data } = useGoogleSearch(term);
